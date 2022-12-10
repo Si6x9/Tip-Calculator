@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tip calculator.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="box">
+            <div id="bill">
+                <h2>Bill total</h2>
+                <input onkeyup="calculate()" style="width: 82%;
+                height: 48px;
+                text-align: center;
+                font-size: 28px;
+                font-weight: bold;
+                border-radius: 20px;
+                color: black;" type="number" title="placeholder text" id="bill-input"  placeholder="₹0.00">
+            </div>
+            <div id="tip">
+                <h2>Tip in %</h2>
+                <input onkeyup="calculate()" style="width: 82%;
+                height: 48px;
+                text-align: center;
+                font-size: 28px;
+                font-weight: bold;
+                border-radius: 20px;
+                color: black;" type="number" placeholder="0%" id="bill-tip">
+
+            </div>
+            <div id="calculate">
+                <div id="people">
+                    <h2 >People</h2>
+                    <div id="total-people">
+                        <img name="plus"
+                        class="people-img" src="https://cdn-icons-png.flaticon.com/512/2040/2040525.png" alt="">
+                        <h1 id="people-total">1</h1>
+                        <img name="minus" class="people-img" src="https://cdn-icons-png.flaticon.com/512/2040/2040526.png" alt="">
+                    </div>
+                </div>
+                <div id="total">
+                    <h2>Total Per Person</h2>
+                        <h1 id="perPerson"
+                        style="text-align: center;margin: 5px 1px;">₹0.00</h1>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="tip calculator.js"></script>
+</body>
+</html>

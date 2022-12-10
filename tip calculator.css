@@ -1,0 +1,69 @@
+body{
+    text-align: left;
+    color: #fff;
+    background-color: #6475c8;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    text-align: center;
+    padding: 1.3em 0.5em;
+    border: 8px double #FADCD9;
+    background-color: #65657e;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 28%;
+    margin: auto;
+    
+
+}
+.people-img{
+    padding: 5px;
+    margin: 10px 0;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+#calculate{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+    flex-direction: row;
+    margin-top:  37px;
+}
+
+#total, #people{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-items: center;
+    text-align: center;
+}
+#total h2,#people h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+}
+#total-people{
+    display: flex;
+    flex-direction: row;
+}
+#people{
+    width: 200px;
+}
+#total-people h1{
+    margin: auto 10px;
+}
